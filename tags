@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+__CFGRW_H	syscfg.h	10;"	d
+__employee	softwareconfig.c	/^typedef struct __employee{$/;"	s	file:
+age	softwareconfig.c	/^	int age;$/;"	m	struct:__employee	file:
+analyse_arglist	softwareconfig.c	/^int analyse_arglist(){$/;"	f
+aplist	softwareconfig.c	/^static cfglist aplist;$/;"	v	file:
+cfgline	syscfg.h	/^}cfgline;$/;"	t	typeref:struct:tag_cfgline
+cfglist	syscfg.h	/^}cfglist;$/;"	t	typeref:struct:tag_cfglist
+cfglist_read	syslog.c	/^int cfglist_read(const char* filename, cfglist* list)$/;"	f
+employee	softwareconfig.c	/^static employee_t employee;$/;"	v	file:
+employee_t	softwareconfig.c	/^}employee_t;$/;"	t	typeref:struct:__employee	file:
+employeelist	main.c	/^employee_t employeelist;$/;"	v
+get_cfgkey	softwareconfig.c	/^int get_cfgkey(cfglist* list, const char* key, char* value){$/;"	f
+get_employeelist	softwareconfig.c	/^int get_employeelist(employee_t *list)$/;"	f
+key	syscfg.h	/^	char key[32];$/;"	m	struct:tag_cfgline
+line	syscfg.h	/^	char line[100];$/;"	m	struct:tag_cfgline
+main	main.c	/^void main(int argc,char *argv[])$/;"	f
+name	softwareconfig.c	/^	char name[32];$/;"	m	struct:__employee	file:
+number	syscfg.h	/^	unsigned int number;$/;"	m	struct:tag_cfglist
+pHead	syscfg.h	/^	cfgline* pHead;$/;"	m	struct:tag_cfglist
+pNext	syscfg.h	/^	struct tag_cfgline* pNext;$/;"	m	struct:tag_cfgline	typeref:struct:tag_cfgline::tag_cfgline
+pTail	syscfg.h	/^	cfgline* pTail;$/;"	m	struct:tag_cfglist
+printf_f	main.c	/^int printf_f(employee_t *list)$/;"	f
+softwareconfig_mode_init	softwareconfig.c	/^int softwareconfig_mode_init(char *filename)$/;"	f
+tag_cfgline	syscfg.h	/^typedef struct tag_cfgline{$/;"	s
+tag_cfglist	syscfg.h	/^typedef struct tag_cfglist{$/;"	s
+value	syscfg.h	/^	char value[100];$/;"	m	struct:tag_cfgline
